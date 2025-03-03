@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sambhaji_ajane/Desktop/NextJs%20applications/Chat-app/app/layout.tsx"],"sourcesContent":["// app/layout.js\n\"use client\"; // Important: Make it a client component\nimport { SessionProvider } from \"next-auth/react\";\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <SessionProvider>\n          {children}\n        </SessionProvider>\n      </body>\n    </html>\n  );\n}"],"names":[],"mappings":"AAAA,gBAAgB;;;;;AAEhB;AADA,cAAc,wCAAwC;;;AAGvC,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,6LAAC;QAAK,MAAK;kBACT,cAAA,6LAAC;sBACC,cAAA,6LAAC,iJAAA,CAAA,kBAAe;0BACb;;;;;;;;;;;;;;;;AAKX;KAVwB"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

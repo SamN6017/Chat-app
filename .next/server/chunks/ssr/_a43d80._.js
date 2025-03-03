@@ -15,7 +15,7 @@ function Home() {
         children: " Hare Krishna"
     }, void 0, false, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 135, "column": 0}, "map": {"version":3,"sources":["file:///Users/sambhaji_ajane/Desktop/NextJs%20applications/Chat-app/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["// app/api/auth/[...nextauth]/route.js\nimport NextAuth from \"next-auth\";\nimport GoogleProvider from \"next-auth/providers/google\";\n\nconst handler = NextAuth({\n    providers: [\n        GoogleProvider({\n            clientId: process.env.GOOGLE_CLIENT_ID,\n            clientSecret: process.env.GOOGLE_CLIENT_SECRET,\n        }),\n    ],\n    callbacks: {\n        async session({ session, token }) {\n            session.user.id = token.sub;\n            return session;\n        },\n    },\n    debug: true,\n    secret: process.env.NEXTAUTH_SECRET,\n});\n\nexport { handler as GET, handler as POST };"],"names":[],"mappings":"AAAA,sCAAsC;;;;;AACtC;AACA;;;AAEA,MAAM,UAAU,CAAA,GAAA,uIAAA,CAAA,UAAQ,AAAD,EAAE;IACrB,WAAW;QACP,CAAA,GAAA,qJAAA,CAAA,UAAc,AAAD,EAAE;YACX,UAAU,QAAQ,GAAG,CAAC,gBAAgB;YACtC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAClD;KACH;IACD,WAAW;QACP,MAAM,SAAQ,EAAE,OAAO,EAAE,KAAK,EAAE;YAC5B,QAAQ,IAAI,CAAC,EAAE,GAAG,MAAM,GAAG;YAC3B,OAAO;QACX;IACJ;IACA,OAAO;IACP,QAAQ,QAAQ,GAAG,CAAC,eAAe;AACvC"}},
+    {"offset": {"line": 161, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

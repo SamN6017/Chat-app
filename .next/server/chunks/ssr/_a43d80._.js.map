@@ -2,7 +2,7 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sambhaji_ajane/Desktop/NextJs%20applications/Chat-app/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div> Hare Krishna</div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AAET"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sambhaji_ajane/Desktop/NextJs%20applications/Chat-app/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport LoginButton from \"./components/loginbutton\";\n\nexport default function Home() {\n  return (\n    <div> Hare Krishna</div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AAET"}},
     {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},

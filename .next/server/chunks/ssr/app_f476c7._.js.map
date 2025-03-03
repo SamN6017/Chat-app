@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sambhaji_ajane/Desktop/NextJs%20applications/Chat-app/app/components/loginbutton.js"],"sourcesContent":["\"use client\";\nimport { signIn, signOut, useSession } from \"next-auth/react\";\n\nexport default function LoginButton() {\n    const { data: session, status } = useSession();\n\n    if (status === \"loading\") return <p>Loading...</p>;\n\n    return session ? (\n        <button onClick={() => signOut()}>Sign Out</button>\n    ) : (\n        <button onClick={() => signIn(\"google\")}>Sign in with Google</button>\n    );\n}\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACpB,MAAM,EAAE,MAAM,OAAO,EAAE,MAAM,EAAE,GAAG,CAAA,GAAA,8IAAA,CAAA,aAAU,AAAD;IAE3C,IAAI,WAAW,WAAW,qBAAO,8OAAC;kBAAE;;;;;;IAEpC,OAAO,wBACH,8OAAC;QAAO,SAAS,IAAM,CAAA,GAAA,8IAAA,CAAA,UAAO,AAAD;kBAAK;;;;;6BAElC,8OAAC;QAAO,SAAS,IAAM,CAAA,GAAA,8IAAA,CAAA,SAAM,AAAD,EAAE;kBAAW;;;;;;AAEjD"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
